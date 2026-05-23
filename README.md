@@ -103,7 +103,9 @@ To be honest, I'm just one of those people who gets easily excited by anything t
 <img src="./header-line.svg" width="100%" />
 
 ## 💬 Let's Connect!
-*Feel free to reach out if you want to collaborate or just chat!*
+If you have a challenging project or problem for me, let me know—I'd love to take it on! 💪 
+
+Otherwise, feel free to reach out if you want to collaborate or just chat!
 
 <p align="left">
   <a href="https://linkedin.com/in/samikshasharma121920" target="_blank">
@@ -119,5 +121,5 @@ To be honest, I'm just one of those people who gets easily excited by anything t
 
 <br />
 <p align="center">
-  <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fhumansamiksha%2Fhumansamiksha&count_bg=%23ff7675&title_bg=%2330363d&title=Views" alt="Views" />
+  <img src="https://api.visitorbadge.io/api/visitors?path=humansamiksha-profile-views&label=Views&countColor=%23ff7675&labelColor=%2330363d&style=flat-square&v=1" alt="Views" />
 </p>
