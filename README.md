@@ -4,15 +4,16 @@
 
 <img src="./header-line.svg" width="100%" />
 
-## 🎮 Player Backstory
+## 🌅 Player Backstory (About Me)
 **Pronouns**: `She / Her`  
-*A motivated Computer Engineering student with a passion for building practical, user-focused solutions, bridging the gap between IoT hardware and modern web stacks.*
+*A curiosity-driven Computer Engineering student and tech explorer who gets immediately hooked on anything that looks cool or promising. I love wandering into new tech realms, from IoT hardware nodes to full-stack web architectures and multi-agent AI networks.*
 
 *   **🎓 Leveling Up**: Pursuing **BE Computer Engineering** at **Army Institute of Technology, Pune** (Currently sitting at a high-tier **9.41 CGPA**).
-*   **💡 Build Type**: Specialized in **IoT System Synthesis** and **Full-stack Web Dev**.
-*   **🤖 Multi-Agent Sorcery**: Crafting automated agent networks using **CrewAI** workflows.
-*   **🎤 Speechcraft Level 99**: Former Public Speaking Teacher & AI Data Trainer — excellent team leadership and event coordination skills.
-*   **🎨 Side Quests**: Obsessed with creative writing, reading, and exploring retro/lo-fi music.
+*   **🧭 Explorer Type**: Multiclassed! I don't stick to just one stack—I jump into IoT synthesis, web systems, and AI workflows because learning everything is way more fun.
+*   **✨ Passive Buff [Ooh, Shiny!]**: Hyper-focused curiosity. If a technology, project, or design looks premium, I will spend hours exploring it and building with it.
+*   **🤖 Multi-Agent Sorcery**: Synthesizing automated AI workflows (using **CrewAI** agents) to solve real-world problems.
+*   **🎤 Speechcraft Level 99**: Former Public Speaking Teacher & AI Data Trainer — I love talking, hosting events, and coordinating teams.
+*   **🎨 Creative Journals**: When I'm not writing code, I write poems/stories, read, and vibing with chill sunset tunes.
 
 <br />
 <img src="./header-line.svg" width="100%" />
@@ -21,7 +22,7 @@
 
 ### Core Languages
 <p align="left">
-  <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" />
+  <img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
   <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
   <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript" />
@@ -118,5 +119,5 @@
 
 <br />
 <p align="center">
-  <img src="https://profile-counter.glitch.me/humansamiksha/count.svg" alt="Visitor Count" />
+  <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fhumansamiksha%2Fhumansamiksha&count_bg=%23ff7675&title_bg=%2330363d&title=Views" alt="Views" />
 </p>
