@@ -86,13 +86,16 @@
 
 ## 📈 Realm Statistics (GitHub Stats)
 
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=humansamiksha&show_icons=true&theme=tokyonight&count_private=true" alt="Samiksha's GitHub Stats" />
-  &nbsp;&nbsp;
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=humansamiksha&theme=tokyonight" alt="Samiksha's Streak Stats" />
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=humansamiksha&theme=tokyonight&column=5" alt="Trophies" />
 </p>
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=humansamiksha&layout=compact&theme=tokyonight" alt="Top Languages" />
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=humansamiksha&theme=tokyonight" alt="Activity Graph" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=humansamiksha&theme=tokyonight" alt="Streak Stats" />
 </p>
 
 <br />
@@ -115,5 +118,5 @@
 
 <br />
 <p align="center">
-  <img src="https://komarev.com/normal-badge/?username=humansamiksha&color=blueviolet&style=flat-square" alt="Visitor Count" />
+  <img src="https://profile-counter.glitch.me/humansamiksha/count.svg" alt="Visitor Count" />
 </p>
