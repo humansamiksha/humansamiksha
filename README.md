@@ -1,48 +1,48 @@
 <p align="center">
-  <img src="./character-sheet.svg" width="100%" alt="Samiksha Sharma Character Sheet" />
+  <img src="./character-sheet.svg" width="100%" alt="Samiksha Sharma Character Card" />
 </p>
 
 <img src="./header-line.svg" width="100%" />
 
-## 🌅 Player Backstory (About Me)
-**Pronouns**: `She / Her`  
-*A curiosity-driven Computer Engineering student and tech explorer who gets immediately hooked on anything that looks cool or promising. I love wandering into new tech realms, from IoT hardware nodes to full-stack web architectures and multi-agent AI networks.*
+## 👋 Hey, I'm Samiksha!
+I'm a Computer Engineering student at the **Army Institute of Technology, Pune** (sitting at a 9.41 CGPA!). 
 
-*   **🎓 Leveling Up**: Pursuing **BE Computer Engineering** at **Army Institute of Technology, Pune** (Currently sitting at a high-tier **9.41 CGPA**).
-*   **🧭 Explorer Type**: Multiclassed! I don't stick to just one stack—I jump into IoT synthesis, web systems, and AI workflows because learning everything is way more fun.
-*   **✨ Passive Buff [Ooh, Shiny!]**: Hyper-focused curiosity. If a technology, project, or design looks premium, I will spend hours exploring it and building with it.
-*   **🤖 Multi-Agent Sorcery**: Synthesizing automated AI workflows (using **CrewAI** agents) to solve real-world problems.
-*   **🎤 Speechcraft Level 99**: Former Public Speaking Teacher & AI Data Trainer — I love talking, hosting events, and coordinating teams.
-*   **🎨 Creative Journals**: When I'm not writing code, I write poems/stories, read, and vibing with chill sunset tunes.
+To be honest, I'm just one of those people who gets easily excited by anything that looks cool or interesting. If a project or technology looks good and catches my eye, I'm instantly hooked and want to explore it. That's why I don't stick to just one thing—I love playing around with web systems, IoT hardware prototypes, and multi-agent AI networks.
+
+*   🎓 **College Life**: Studying BE Computer Engineering at AIT Pune.
+*   🧭 **Vibe**: Tech explorer. I love learning whatever looks cool instead of just mastering one stack.
+*   💡 **Curiosity**: High! If it's interesting, I'll spend hours figuring it out.
+*   🎤 **Beyond Code**: Former public speaking teacher for kids and AI data trainer. I enjoy managing events and working with people.
+*   ✍️ **Creative Side**: When I'm offline, I'm usually writing stories/poems, reading books, or cycling.
 
 <br />
 <img src="./header-line.svg" width="100%" />
 
-## ⚔️ Active Spells & Weaponry (Tech Stack)
+## 🛠️ Tech I Use
 
-### Core Languages
+### Coding Languages
 <p align="left">
-  <img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
-  <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
 </p>
 
-### Frameworks, Tools & Platforms
+### Frameworks & Tools
 <p align="left">
-  <img src="https://img.shields.io/badge/flask-%23000000.svg?style=for-the-badge&logo=flask&logoColor=white" alt="Flask" />
-  <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
-  <img src="https://img.shields.io/badge/git-%23F05032.svg?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  <img src="https://img.shields.io/badge/visual___studio___code-%23007ACC.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code" />
-  <img src="https://img.shields.io/badge/linux-%23FCC624.svg?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
-  <img src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" />
+  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
+  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" />
 </p>
 
-### Hardware & IoT Synthesis
+### IoT & Hardware
 <p align="left">
   <img src="https://img.shields.io/badge/Embedded_C-4A4A4A?style=for-the-badge&logo=c&logoColor=white" alt="Embedded C" />
   <img src="https://img.shields.io/badge/MQTT-3C5280?style=for-the-badge&logo=mqtt&logoColor=white" alt="MQTT" />
@@ -52,40 +52,40 @@
 <br />
 <img src="./header-line.svg" width="100%" />
 
-## 🗺️ Completed Quests (Projects)
+## 🚀 Projects I've Worked On
 
 *   **🏥 JEEVAN - AI Hospital Management System**
-    *   *AI / Flutter / Node.js / CrewAI / Blockchain*
-    *   AI-powered hospital emergency management system with automated medical resource allocation.
-    *   Developed multi-agent AI workflows for doctor, nurse, bed, and equipment assignment with real-time notifications.
-    *   Integrated blockchain-based secure records and IoT-based AQI monitoring.
+    *   *AI, Flutter, Node.js, CrewAI, Blockchain*
+    *   Built an AI-powered system for automated hospital emergency resource allocation.
+    *   Created multi-agent AI workflows for automatic doctor, nurse, bed, and equipment assignment.
+    *   Integrated secure blockchain records and IoT-based AQI monitoring.
 *   **🛒 KindKart - Community Donation Platform**
-    *   *HTML / CSS / JS / Flask / MySQL / Socket.IO*
-    *   Developed a real-time community donation platform with secure authentication and live donor-recipient communication.
-    *   Implemented location-based donation workflows and a responsive Neo-Brutalist UI.
+    *   *HTML, CSS, JS, Flask, MySQL, Socket.IO*
+    *   Developed a real-time platform with secure login and live donor-recipient chat.
+    *   Implemented location-based donation workflow with a clean, responsive Neo-Brutalist UI.
 *   **🏨 Smart Hostel Management System**
-    *   *HTML / CSS / JS / Node.js / MySQL*
-    *   Full-stack hostel management system for room allocation, complaint tracking, and leave management.
-    *   Designed a responsive Glassmorphism-based dashboard with role-based authentication.
+    *   *HTML, CSS, JS, Node.js, MySQL*
+    *   Created a full-stack dashboard for room allocation, complaint tracking, and leave management.
+    *   Designed a responsive Glassmorphism layout with role-based secure login.
 *   **⚡ Smart Classroom Energy Monitoring System (IoT)**
-    *   *Embedded C / MQTTBox / Grafana*
-    *   IoT-based smart classroom automation system for occupancy-based control of lights and fans.
-    *   Implemented MQTT-based real-time monitoring with Grafana dashboard.
+    *   *Embedded C, MQTTBox, Grafana*
+    *   Built an IoT automation system that turns off lights and fans based on classroom occupancy.
+    *   Set up MQTT-based real-time tracking with a Grafana dashboard to prevent power wastage.
 
 <br />
 <img src="./header-line.svg" width="100%" />
 
-## 🏆 Unlocked Trophies (Achievements)
+## 🏆 Achievements & Milestones
 - 🎖️ Won the **Rajput Regiment Rolling Innovation Trophy** for the best innovation project at AIT, Pune.
-- 🥇 Secured **1st Prize in DecentraHack Hackathon** at PCCOE, Pune.
+- 🥇 Got **1st Prize in DecentraHack Hackathon** at PCCOE, Pune.
 - 🏁 Finalist at **MumbaiHacks 2025**.
-- 🔬 Awarded **Child Scientist** for five consecutive years (2018-2023) by NCSC.
+- 🔬 Awarded **Child Scientist** for 5 consecutive years (2018-2023) by NCSC at national level.
 - 👑 **State Winner** in Bharat Ko Jano Quiz.
 
 <br />
 <img src="./header-line.svg" width="100%" />
 
-## 📈 Realm Statistics (GitHub Stats)
+## 📊 My GitHub Stats
 
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=humansamiksha&theme=tokyonight&column=5" alt="Trophies" />
@@ -102,8 +102,8 @@
 <br />
 <img src="./header-line.svg" width="100%" />
 
-## 💬 Message Terminal
-*Drop a message to connect or collaborate!*
+## 💬 Let's Connect!
+*Feel free to reach out if you want to collaborate or just chat!*
 
 <p align="left">
   <a href="https://linkedin.com/in/samikshasharma121920" target="_blank">

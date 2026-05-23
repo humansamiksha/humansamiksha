@@ -21,7 +21,7 @@
       font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
       font-weight: 600;
       font-size: 11px;
-      fill: #feca57;
+      fill: #ff7e5f;
       letter-spacing: 1px;
     }
     .text-label {
@@ -40,7 +40,7 @@
       font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
       font-weight: bold;
       font-size: 12px;
-      fill: #ff7675;
+      fill: #feb47b;
       letter-spacing: 1.5px;
     }
     .bar-bg {
@@ -72,31 +72,25 @@
   </style>
 
   <defs>
-    <!-- SUNSET COLOR SHIFT GRADIENT -->
+    <!-- SUNSET GRADIENTS -->
     <linearGradient id="sunset-shift-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#ff9f43">
-        <animate attributeName="stop-color" values="#ff9f43;#ff5252;#ee5253;#9b51e0;#ff9f43" dur="8s" repeatCount="indefinite" />
+      <stop offset="0%" stop-color="#ff7e5f">
+        <animate attributeName="stop-color" values="#ff7e5f;#feb47b;#ff2e63;#ff7e5f" dur="8s" repeatCount="indefinite" />
       </stop>
-      <stop offset="50%" stop-color="#ff5252">
-        <animate attributeName="stop-color" values="#ff5252;#ee5253;#9b51e0;#ff9f43;#ff5252" dur="8s" repeatCount="indefinite" />
+      <stop offset="50%" stop-color="#feb47b">
+        <animate attributeName="stop-color" values="#feb47b;#ff2e63;#ff7e5f;#feb47b" dur="8s" repeatCount="indefinite" />
       </stop>
-      <stop offset="100%" stop-color="#9b51e0">
-        <animate attributeName="stop-color" values="#9b51e0;#ff9f43;#ff5252;#ee5253;#9b51e0" dur="8s" repeatCount="indefinite" />
+      <stop offset="100%" stop-color="#ff2e63">
+        <animate attributeName="stop-color" values="#ff2e63;#ff7e5f;#feb47b;#ff2e63" dur="8s" repeatCount="indefinite" />
       </stop>
     </linearGradient>
 
-    <!-- Glowing Lines Separator Gradient -->
-    <linearGradient id="header-shift-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ff9f43">
-        <animate attributeName="stop-color" values="#ff9f43;#ff5252;#9b51e0;#ff9f43" dur="6s" repeatCount="indefinite" />
-      </stop>
-      <stop offset="50%" stop-color="#ff5252">
-        <animate attributeName="stop-color" values="#ff5252;#9b51e0;#ff9f43;#ff5252" dur="6s" repeatCount="indefinite" />
-      </stop>
-      <stop offset="100%" stop-color="#9b51e0">
-        <animate attributeName="stop-color" values="#9b51e0;#ff9f43;#ff5252;#9b51e0" dur="6s" repeatCount="indefinite" />
-      </stop>
-    </linearGradient>
+    <radialGradient id="sun-radial" cx="50%" cy="50%" r="50%" fx="30%" fy="30%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="25%" stop-color="#ffea00" />
+      <stop offset="65%" stop-color="#ff5e62" />
+      <stop offset="100%" stop-color="#ff2e63" />
+    </radialGradient>
 
     <linearGradient id="hp-grad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#ff7675" />
@@ -104,24 +98,34 @@
     </linearGradient>
     <linearGradient id="cq-grad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#fca503" />
-      <stop offset="100%" stop-color="#ff5252" />
+      <stop offset="100%" stop-color="#ff2e63" />
     </linearGradient>
     <linearGradient id="exp-grad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#ff9f43" />
       <stop offset="100%" stop-color="#9b51e0" />
     </linearGradient>
 
-    <!-- 3D Shadow Filter -->
+    <!-- Glowing Filters -->
+    <filter id="sun-glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="10" result="blur" />
+      <feComponentTransfer in="blur" result="glow">
+        <feFuncA type="linear" slope="0.85" />
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode in="glow" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
     <filter id="shadow-filter" x="-10%" y="-10%" width="120%" height="120%">
-      <feDropShadow dx="0" dy="15" stdDeviation="15" flood-color="#ff7675" flood-opacity="0.15"/>
+      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#ff7e5f" flood-opacity="0.12"/>
     </filter>
   </defs>
 
-  <!-- DYNAMIC SHADOW -->
-  <ellipse cx="425" cy="420" rx="300" ry="14" fill="#05070a" opacity="0.5">
-    <animate attributeName="opacity" values="0.5;0.25;0.5" dur="4.5s" repeatCount="indefinite" />
-    <animate attributeName="rx" values="300;250;300" dur="4.5s" repeatCount="indefinite" />
-    <animate attributeName="ry" values="14;10;14" dur="4.5s" repeatCount="indefinite" />
+  <!-- DYNAMIC BOTTOM SHADOW -->
+  <ellipse cx="425" cy="425" rx="290" ry="12" fill="#05070a" opacity="0.5">
+    <animate attributeName="opacity" values="0.5;0.25;0.5" dur="5s" repeatCount="indefinite" />
+    <animate attributeName="rx" values="290;240;290" dur="5s" repeatCount="indefinite" />
   </ellipse>
 
   <!-- 3D HOVERING CONTAINER -->
@@ -130,62 +134,55 @@
        attributeName="transform" 
        type="translate" 
        values="0,5; 0,-15; 0,5" 
-       dur="4.5s" 
+       dur="5s" 
        repeatCount="indefinite"/>
 
-    <!-- 3D ISOMETRIC PROJECTION TRANSFORM -->
-    <g transform="translate(85, 30) rotate(-5) skewX(8) scale(0.96, 0.92)" filter="url(#shadow-filter)">
+    <!-- 3D ISOMETRIC PROJECTION -->
+    <g transform="translate(85, 40) rotate(-4) skewX(6) scale(0.96, 0.93)" filter="url(#shadow-filter)">
       
-      <!-- 3D Extrusion Back Layers -->
-      <rect x="14" y="14" width="710" height="350" rx="12" fill="#05070a" stroke="#161b22" stroke-width="2"/>
-      <rect x="12" y="12" width="710" height="350" rx="12" fill="#0d1117" stroke="#21262d" stroke-width="2"/>
+      <!-- 3D Depth Layers -->
+      <rect x="14" y="14" width="710" height="340" rx="12" fill="#040609" stroke="#161b22" stroke-width="2"/>
+      <rect x="12" y="12" width="710" height="340" rx="12" fill="#0d1117" stroke="#21262d" stroke-width="2"/>
       
       <!-- Main Card Front Face -->
-      <rect x="10" y="10" width="710" height="350" rx="12" class="card-front"/>
+      <rect x="10" y="10" width="710" height="340" rx="12" class="card-front"/>
 
-      <!-- LEFT PANEL: Character Info & Explorer Avatar -->
-      <g transform="translate(25, 25)">
-        <!-- Explorer Frame -->
-        <rect x="0" y="0" width="200" height="190" rx="8" class="panel-bg" />
-        
-        <!-- Glowing Explorer Compass/Globe Graphic -->
-        <circle cx="100" cy="80" r="42" fill="none" stroke="url(#sunset-shift-grad)" stroke-width="2" />
-        <!-- Compass Ticks & Axes -->
-        <line x1="100" y1="38" x2="100" y2="44" stroke="#ff9f43" stroke-width="2" />
-        <line x1="100" y1="116" x2="100" y2="122" stroke="#ff9f43" stroke-width="2" />
-        <line x1="58" y1="80" x2="64" y2="80" stroke="#ff9f43" stroke-width="2" />
-        <line x1="136" y1="80" x2="142" y2="80" stroke="#ff9f43" stroke-width="2" />
-        <!-- Compass Needle -->
-        <polygon points="100,55 106,80 94,80" fill="#ff5252"/>
-        <polygon points="100,105 106,80 94,80" fill="#9b51e0"/>
-        <circle cx="100" cy="80" r="4" fill="#ffffff" />
-        
-        <!-- Magic Sparkles -->
-        <path d="M55 50L57 55L62 57L57 59L55 64L53 59L48 57L53 55Z" fill="#ff9f43"><animate attributeName="opacity" values="0.2;1;0.2" dur="3s" repeatCount="indefinite"/></path>
-        <path d="M145 105L147 110L152 112L147 114L145 119L143 114L138 112L143 110Z" fill="#feca57"><animate attributeName="opacity" values="1;0.2;1" dur="3s" repeatCount="indefinite"/></path>
-        
-        <!-- Level Badge -->
-        <rect x="75" y="155" width="50" height="18" rx="4" fill="url(#sunset-shift-grad)" />
-        <text x="100" y="168" font-family="'Segoe UI', sans-serif" font-weight="900" font-size="10" fill="#0d1117" text-anchor="middle">LVL 99</text>
+      <!-- 3D RISING SUN (Pops out from the top-left boundary of the card) -->
+      <g>
+        <circle cx="110" cy="55" r="50" fill="url(#sun-radial)" filter="url(#sun-glow)">
+          <!-- Slow vertical rising/setting movement animation -->
+          <animate attributeName="cy" values="55;42;55" dur="6s" repeatCount="indefinite" />
+        </circle>
+      </g>
 
+      <!-- 3D SILHOUETTE MOUNTAINS (Sun rises behind these inside the card) -->
+      <!-- Back Mountain Range -->
+      <path d="M10 348 L110 240 L220 348 Z" fill="#141824" opacity="0.7"/>
+      <!-- Front Mountain Range -->
+      <path d="M60 348 L170 210 L300 348 Z" fill="#1b2030"/>
+
+      <!-- LEFT PANEL: Character Info -->
+      <g transform="translate(25, 115)">
         <!-- Info Text -->
-        <text x="0" y="222" class="text-title">SAMIKSHA</text>
-        <text x="0" y="243" class="text-title" fill="url(#sunset-shift-grad)">SHARMA</text>
-        <text x="0" y="265" class="text-subtitle">INFINITE EXPLORER // TECH DABBLER</text>
+        <text x="0" y="110" class="text-title">SAMIKSHA</text>
+        <text x="0" y="131" class="text-title" fill="url(#sunset-shift-grad)">SHARMA</text>
+        <text x="0" y="152" class="text-subtitle">COMPUTER ENGINEERING // EXPLORER</text>
         
-        <!-- Passive Buff Status -->
-        <rect x="0" y="280" width="200" height="25" rx="4" fill="#1f2937" stroke="#30363d" />
-        <text x="100" y="296" font-family="'Segoe UI', sans-serif" font-weight="bold" font-size="10" fill="#feca57" text-anchor="middle">✨ Passive: Ooh, Shiny!</text>
+        <!-- Status Indicator -->
+        <rect x="0" y="165" width="200" height="42" rx="6" fill="#151922" stroke="#30363d" />
+        <!-- Standard casual personality display -->
+        <text x="12" y="181" font-family="'Segoe UI', sans-serif" font-weight="600" font-size="10" fill="#feb47b">✨ Current Status:</text>
+        <text x="12" y="196" font-family="'Segoe UI', sans-serif" font-weight="bold" font-size="9" fill="#ffffff">Gets excited about anything cool!</text>
       </g>
 
       <!-- RIGHT PANEL: Stats, Attributes & Gear -->
       <g transform="translate(250, 25)">
         <!-- Base Panel Grid -->
-        <rect x="0" y="0" width="435" height="300" rx="8" class="panel-bg" />
+        <rect x="0" y="0" width="435" height="310" rx="8" class="panel-bg" />
 
         <!-- Column 1: Player Vitals & Attributes -->
         <g transform="translate(20, 20)">
-          <text x="0" y="0" class="section-header">🌅 EXPLORER VITALS</text>
+          <text x="0" y="0" class="section-header">🌅 MY STATUS</text>
           
           <!-- HP / CGPA -->
           <g transform="translate(0, 12)">
@@ -208,18 +205,18 @@
             <text x="0" y="10" class="text-label">FOCUS SPAN</text>
             <rect x="100" y="2" width="90" height="8" class="bar-bg" />
             <rect x="100" y="2" width="45" height="8" class="bar-fill-exp" />
-            <text x="200" y="10" class="text-value">DYNAMIC 📈</text>
+            <text x="200" y="10" class="text-value">Dynamic 📈</text>
           </g>
 
           <!-- Section Separator -->
           <line x1="0" y1="78" x2="250" y2="78" stroke="#30363d" stroke-width="1" />
 
           <!-- Attributes -->
-          <text x="0" y="96" class="section-header">🧭 EXPLORED REALMS</text>
+          <text x="0" y="96" class="section-header">🧭 STUFF I EXPLORE</text>
 
           <!-- Web Crafting -->
           <g transform="translate(0, 110)">
-            <text x="0" y="10" class="text-label">WEB CRAFTING</text>
+            <text x="0" y="10" class="text-label">WEB SYSTEMS</text>
             <rect x="100" y="2" width="90" height="8" class="bar-bg" />
             <rect x="100" y="2" width="81" height="8" class="bar-fill-attr" />
             <text x="200" y="10" class="text-value">90 / 100</text>
@@ -227,15 +224,15 @@
 
           <!-- IoT Synthesis -->
           <g transform="translate(0, 130)">
-            <text x="0" y="10" class="text-label">IOT SYNTHESIS</text>
+            <text x="0" y="10" class="text-label">IOT &amp; HARDWARE</text>
             <rect x="100" y="2" width="90" height="8" class="bar-bg" />
             <rect x="100" y="2" width="76.5" height="8" class="bar-fill-attr" />
             <text x="200" y="10" class="text-value">85 / 100</text>
           </g>
 
-          <!-- Hackathon Raids -->
+          <!-- Hackathons -->
           <g transform="translate(0, 150)">
-            <text x="0" y="10" class="text-label">HACKATHON RAIDS</text>
+            <text x="0" y="10" class="text-label">HACKATHONS</text>
             <rect x="100" y="2" width="90" height="8" class="bar-bg" />
             <rect x="100" y="2" width="88.2" height="8" class="bar-fill-attr" />
             <text x="200" y="10" class="text-value">98 / 100</text>
@@ -251,38 +248,38 @@
         </g>
 
         <!-- Vertical Divider -->
-        <line x1="280" y1="20" x2="280" y2="280" stroke="#30363d" stroke-width="1" />
+        <line x1="280" y1="20" x2="280" y2="290" stroke="#30363d" stroke-width="1" />
 
         <!-- Column 2: Explorer Inventory -->
         <g transform="translate(295, 20)">
-          <text x="0" y="0" class="section-header">🎒 BAG ITEMS</text>
+          <text x="0" y="0" class="section-header">🎒 MY BAG</text>
           
-          <!-- Weapon Slot -->
+          <!-- Web Slot -->
           <g transform="translate(0, 15)">
             <rect x="0" y="0" width="120" height="52" class="gear-box" />
-            <text x="8" y="16" class="gear-title">SPELLBOOK (WEB)</text>
-            <text x="8" y="36" class="gear-name" fill="#ff7675">🪄 Flask &amp; Node</text>
+            <text x="8" y="16" class="gear-title">WEB WORK</text>
+            <text x="8" y="36" class="gear-name" fill="#ff7675">Flask &amp; Node</text>
           </g>
 
-          <!-- Shield Slot -->
+          <!-- IoT Slot -->
           <g transform="translate(0, 80)">
             <rect x="0" y="0" width="120" height="52" class="gear-box" />
-            <text x="8" y="16" class="gear-title">COMPASS (IOT)</text>
-            <text x="8" y="36" class="gear-name" fill="#feca57">🧭 Bolt IoT &amp; C</text>
+            <text x="8" y="16" class="gear-title">IOT COMPASS</text>
+            <text x="8" y="36" class="gear-name" fill="#feb47b">Bolt IoT &amp; C</text>
           </g>
 
-          <!-- Spell Book -->
+          <!-- AI Runes -->
           <g transform="translate(0, 145)">
             <rect x="0" y="0" width="120" height="52" class="gear-box" />
-            <text x="8" y="16" class="gear-title">ACTIVE RUNES</text>
-            <text x="8" y="36" class="gear-name" fill="#ff9f43">🔥 CrewAI Agents</text>
+            <text x="8" y="16" class="gear-title">AI RUNES</text>
+            <text x="8" y="36" class="gear-name" fill="#ff7675">CrewAI Agents</text>
           </g>
 
-          <!-- Accessory -->
+          <!-- Design & Creative -->
           <g transform="translate(0, 210)">
             <rect x="0" y="0" width="120" height="52" class="gear-box" />
-            <text x="8" y="16" class="gear-title">MAPS &amp; JOURNALS</text>
-            <text x="8" y="36" class="gear-name" fill="#ff7675">📜 Figma &amp; Write</text>
+            <text x="8" y="16" class="gear-title">DESIGN &amp; WRITE</text>
+            <text x="8" y="36" class="gear-name" fill="#feb47b">Figma &amp; Canva</text>
           </g>
         </g>
       </g>
