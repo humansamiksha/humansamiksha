@@ -1,0 +1,143 @@
+<svg width="350" height="280" viewBox="0 0 350 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define styles & animations -->
+  <style>
+    .terminal-bg {
+      fill: #0d1117;
+      stroke: url(#glowing-border);
+      stroke-width: 2;
+    }
+    .window-title {
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: bold;
+      font-size: 13px;
+      fill: #8b949e;
+    }
+    .code-text {
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 13px;
+    }
+    .prompt { fill: #58a6ff; font-weight: bold; }
+    .cmd { fill: #c9d1d9; }
+    .bracket { fill: #ff7b72; }
+    .key { fill: #d2a8ff; }
+    .val { fill: #a5d6ff; }
+    .accent-val { fill: #f2cc60; }
+    .cursor {
+      fill: #58a6ff;
+      animation: blink 1s step-end infinite;
+    }
+    @keyframes blink {
+      from, to { opacity: 1; }
+      50% { opacity: 0; }
+    }
+  </style>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="glowing-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6" />
+      <stop offset="50%" stop-color="#ec4899" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#8b5cf6" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Terminal Window Body -->
+  <rect x="10" y="10" width="330" height="260" rx="8" class="terminal-bg" filter="url(#shadow)"/>
+
+  <!-- Title Bar -->
+  <path d="M10 18C10 13.5781 13.5781 10 18 10H332C336.422 10 340 13.5781 340 18V35H10V18Z" fill="#161b22"/>
+  
+  <!-- Window Buttons (Mac style) -->
+  <circle cx="28" cy="22" r="5" fill="#ff5f56"/>
+  <circle cx="44" cy="22" r="5" fill="#ffbd2e"/>
+  <circle cx="60" cy="22" r="5" fill="#27c93f"/>
+
+  <!-- Window Title Text -->
+  <text x="175" y="27" text-anchor="middle" class="window-title">samiksha@ait-pune:~</text>
+
+  <!-- Terminal Content -->
+  <g transform="translate(25, 60)">
+    <!-- Line 1 -->
+    <text x="0" y="0" class="code-text">
+      <tspan class="prompt">~ $ </tspan>
+      <tspan class="cmd">neofetch</tspan>
+    </text>
+
+    <!-- Line 2: Separator -->
+    <text x="0" y="20" class="code-text" fill="#30363d">----------------------------</text>
+
+    <!-- Line 3 -->
+    <text x="0" y="40" class="code-text">
+      <tspan class="bracket">[</tspan>
+      <tspan class="key">User</tspan>
+      <tspan class="bracket">]</tspan>
+      <tspan fill="#c9d1d9">  - </tspan>
+      <tspan class="val">Samiksha Sharma</tspan>
+    </text>
+
+    <!-- Line 4 -->
+    <text x="0" y="60" class="code-text">
+      <tspan class="bracket">[</tspan>
+      <tspan class="key">Role</tspan>
+      <tspan class="bracket">]</tspan>
+      <tspan fill="#c9d1d9">  - </tspan>
+      <tspan class="val">Computer Engineering Student</tspan>
+    </text>
+
+    <!-- Line 5 -->
+    <text x="0" y="80" class="code-text">
+      <tspan class="bracket">[</tspan>
+      <tspan class="key">Focus</tspan>
+      <tspan class="bracket">]</tspan>
+      <tspan fill="#c9d1d9"> - </tspan>
+      <tspan class="accent-val">IoT &amp; Web Dev Enthusiast</tspan>
+    </text>
+
+    <!-- Line 6 -->
+    <text x="0" y="100" class="code-text">
+      <tspan class="bracket">[</tspan>
+      <tspan class="key">CGPA</tspan>
+      <tspan class="bracket">]</tspan>
+      <tspan fill="#c9d1d9">  - </tspan>
+      <tspan class="val">9.41 (AIT, Pune)</tspan>
+    </text>
+
+    <!-- Line 7 -->
+    <text x="0" y="120" class="code-text">
+      <tspan class="bracket">[</tspan>
+      <tspan class="key">Award</tspan>
+      <tspan class="bracket">]</tspan>
+      <tspan fill="#c9d1d9"> - </tspan>
+      <tspan class="accent-val">Rajput Innovation Trophy 🏆</tspan>
+    </text>
+
+    <!-- Line 8 -->
+    <text x="0" y="140" class="code-text">
+      <tspan class="bracket">[</tspan>
+      <tspan class="key">Vibe</tspan>
+      <tspan class="bracket">]</tspan>
+      <tspan fill="#c9d1d9">  - </tspan>
+      <tspan class="val">Always learning &amp; coding...</tspan>
+    </text>
+
+    <!-- Line 9 -->
+    <text x="0" y="170" class="code-text">
+      <tspan class="prompt">~ $ </tspan>
+      <tspan class="cmd">curl -s status.json</tspan>
+    </text>
+
+    <!-- Line 10 -->
+    <text x="0" y="190" class="code-text">
+      <tspan fill="#7ee787">{"status": "building_cool_stuff"}</tspan>
+    </text>
+
+    <!-- Line 11 (Prompt with cursor) -->
+    <text x="0" y="210" class="code-text">
+      <tspan class="prompt">~ $ </tspan>
+      <rect x="32" y="198" width="8" height="13" class="cursor"/>
+    </text>
+  </g>
+</svg>
