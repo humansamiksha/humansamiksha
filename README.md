@@ -5,15 +5,29 @@
 <img src="./header-line.svg" width="100%" />
 
 ## 👋 Hey, I'm Samiksha!
-I'm a Computer Engineering student at the **Army Institute of Technology, Pune**. 
 
-To be honest, I'm just one of those people who gets easily excited by anything that looks cool or interesting. If a project or technology looks good and catches my eye, I'm instantly hooked and want to explore it. That's why I don't stick to just one thing—I love playing around with web systems, IoT hardware prototypes, and multi-agent AI networks.
-
-*   🎓 **College Life**: Studying BE Computer Engineering at AIT Pune.
-*   🧭 **Vibe**: Tech explorer. I love learning whatever looks cool instead of just mastering one stack.
-*   💡 **Curiosity**: High! If it's interesting, I'll spend hours figuring it out.
-*   🎤 **Beyond Code**: Former public speaking teacher for kids and AI data trainer. I enjoy managing events and working with people.
-*   ✍️ **Creative Side**: When I'm offline, I'm usually writing stories/poems, reading books, or cycling.
+<table border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td valign="top" width="72%">
+      <p>
+        I'm a Computer Engineering student at the <strong>Army Institute of Technology, Pune</strong> (sitting at a 9.41 CGPA!).
+      </p>
+      <p>
+        To be honest, I'm just one of those people who gets easily excited by anything that looks cool or interesting. If a project or technology looks good and catches my eye, I'm instantly hooked and want to explore it. That's why I don't stick to just one thing—I love playing around with web systems, IoT hardware prototypes, and multi-agent AI networks.
+      </p>
+      <ul>
+        <li>🎓 <strong>College Life</strong>: Studying BE Computer Engineering at AIT Pune.</li>
+        <li>🧭 <strong>Vibe</strong>: Tech explorer. I love learning whatever looks cool instead of just mastering one stack.</li>
+        <li>💡 <strong>Curiosity</strong>: High! If it's interesting, I'll spend hours figuring it out.</li>
+        <li>🎤 <strong>Beyond Code</strong>: Former public speaking teacher for kids and AI data trainer. I enjoy managing events and working with people.</li>
+        <li>✍️ <strong>Creative Side</strong>: When I'm offline, I'm usually writing stories/poems, reading books, or cycling.</li>
+      </ul>
+    </td>
+    <td valign="middle" width="28%" align="center">
+      <img src="./glowing-sun.svg" width="100%" style="max-width: 150px;" alt="Glowing Sun" />
+    </td>
+  </tr>
+</table>
 
 <br />
 <img src="./header-line.svg" width="100%" />

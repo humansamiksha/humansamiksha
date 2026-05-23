@@ -1,0 +1,60 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Radial Sun Gradient -->
+    <radialGradient id="sun-core" cx="50%" cy="50%" r="50%" fx="40%" fy="40%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="20%" stop-color="#fff200" />
+      <stop offset="70%" stop-color="#ff7e5f" />
+      <stop offset="100%" stop-color="#ff2e63" />
+    </radialGradient>
+
+    <!-- Glowing Rays Gradient -->
+    <linearGradient id="ray-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffea00" stop-opacity="1" />
+      <stop offset="50%" stop-color="#ff7e5f" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#ff2e63" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- High-intensity Glow Filter -->
+    <filter id="super-glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="blur1" />
+      <feGaussianBlur stdDeviation="12" result="blur2" />
+      <feMerge>
+        <feMergeNode in="blur2" />
+        <feMergeNode in="blur1" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Glowing background aura -->
+  <circle cx="100" cy="100" r="50" fill="#fff200" opacity="0.3" filter="url(#super-glow)"/>
+
+  <!-- Rotating/Radiating Sun Rays -->
+  <g transform="translate(100, 100)" filter="url(#super-glow)">
+    <!-- 8 Main Rays -->
+    <path d="M -8 -45 L 0 -85 L 8 -45 Z" fill="url(#ray-grad)" />
+    <path d="M -8 -45 L 0 -85 L 8 -45 Z" fill="url(#ray-grad)" transform="rotate(45)" />
+    <path d="M -8 -45 L 0 -85 L 8 -45 Z" fill="url(#ray-grad)" transform="rotate(90)" />
+    <path d="M -8 -45 L 0 -85 L 8 -45 Z" fill="url(#ray-grad)" transform="rotate(135)" />
+    <path d="M -8 -45 L 0 -85 L 8 -45 Z" fill="url(#ray-grad)" transform="rotate(180)" />
+    <path d="M -8 -45 L 0 -85 L 8 -45 Z" fill="url(#ray-grad)" transform="rotate(225)" />
+    <path d="M -8 -45 L 0 -85 L 8 -45 Z" fill="url(#ray-grad)" transform="rotate(270)" />
+    <path d="M -8 -45 L 0 -85 L 8 -45 Z" fill="url(#ray-grad)" transform="rotate(315)" />
+
+    <!-- 8 Minor Rays (rotated offset & smaller) -->
+    <g transform="scale(0.7) rotate(22.5)">
+      <path d="M -8 -45 L 0 -85 L 8 -45 Z" fill="url(#ray-grad)" />
+      <path d="M -8 -45 L 0 -85 L 8 -45 Z" fill="url(#ray-grad)" transform="rotate(45)" />
+      <path d="M -8 -45 L 0 -85 L 8 -45 Z" fill="url(#ray-grad)" transform="rotate(90)" />
+      <path d="M -8 -45 L 0 -85 L 8 -45 Z" fill="url(#ray-grad)" transform="rotate(135)" />
+      <path d="M -8 -45 L 0 -85 L 8 -45 Z" fill="url(#ray-grad)" transform="rotate(180)" />
+      <path d="M -8 -45 L 0 -85 L 8 -45 Z" fill="url(#ray-grad)" transform="rotate(225)" />
+      <path d="M -8 -45 L 0 -85 L 8 -45 Z" fill="url(#ray-grad)" transform="rotate(270)" />
+      <path d="M -8 -45 L 0 -85 L 8 -45 Z" fill="url(#ray-grad)" transform="rotate(315)" />
+    </g>
+  </g>
+
+  <!-- Sun Central Core -->
+  <circle cx="100" cy="100" r="38" fill="url(#sun-core)" filter="url(#super-glow)"/>
+</svg>
