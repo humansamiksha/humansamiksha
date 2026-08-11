@@ -145,7 +145,7 @@
         <text x="0" y="12" class="text-label">HP [CGPA]</text>
         <rect x="110" y="3" width="100" height="10" class="bar-bg" />
         <rect x="110" y="3" width="94" height="10" class="bar-fill-hp" />
-        <text x="220" y="12" class="text-value">9.41 / 10</text>
+        <text x="220" y="12" class="text-value">9.55 / 10</text>
       </g>
 
       <!-- MP / Matriculation -->
